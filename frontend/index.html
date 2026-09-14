@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MocLan Viral Hub — Hệ Thống Quản Lý Fanpage</title>
+    <meta name="description" content="Hệ thống quản lý 100+ Fanpage Facebook — Spoof video, đăng Reels, theo dõi viral, tự động comment.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/styles.css?v=350">
+    <link rel="stylesheet" href="/static/css/theme.css?v=350">
+</head>
+<body>
+    <div class="app-layout">
+        <!-- Sidebar -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-brand">
+                <div class="brand-icon">🚀</div>
+                <div class="brand-text">
+                    <span class="brand-name">MocLan</span>
+                    <span class="brand-tag">Viral Hub</span>
+                </div>
+            </div>
+
+            <nav class="sidebar-nav">
+                <div class="nav-section-label">Tổng Quan</div>
+                <a href="#dashboard" class="nav-item active" data-page="dashboard">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+                    <span>Dashboard</span>
+                </a>
+
+                <div class="nav-section-label">Quản Lý</div>
+                <a href="#accounts" class="nav-item" data-page="accounts">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                    <span>Tài Khoản</span>
+                </a>
+                <a href="#pages_mgmt" class="nav-item" data-page="pages_mgmt">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                    <span>Fanpage</span>
+                </a>
+
+                <div class="nav-section-label">Nội Dung</div>
+                <a href="#downloader" class="nav-item" data-page="downloader">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                    <span>Tải Video</span>
+                </a>
+                <a href="#studio" class="nav-item" data-page="studio">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 3h16a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/><path d="m14 13 4 2.5-4 2.5z"/></svg>
+                    <span>Video Studio</span>
+                </a>
+                <a href="#spoofer" class="nav-item" data-page="spoofer">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+                    <span>Tạo Biến Thể</span>
+                </a>
+                <a href="#content_studio" class="nav-item" data-page="content_studio">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg>
+                    <span>Content Studio</span>
+                </a>
+                <a href="#checker" class="nav-item" data-page="checker">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                    <span>Kiểm Tra Trùng Lặp</span>
+                </a>
+
+                <div class="nav-section-label">Tăng Trưởng</div>
+                <a href="#spy" class="nav-item" data-page="spy">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                    <span>Spy Đối Thủ</span>
+                </a>
+                <a href="#inbox" class="nav-item" data-page="inbox">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 16 12 14 15 10 15 8 12 2 12"/><path d="M5.45 5.11L2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"/></svg>
+                    <span>Unified Inbox</span>
+                </a>
+
+                <div class="nav-section-label">Phân Tích</div>
+                <a href="#analytics" class="nav-item" data-page="analytics">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+                    <span>Phân Tích</span>
+                </a>
+                <a href="#settings" class="nav-item" data-page="settings">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+                    <span>Cài Đặt</span>
+                </a>
+            </nav>
+
+            <div class="sidebar-footer">
+                <div class="connection-status" id="connectionStatus">
+                    <span class="status-dot"></span>
+                    <span class="status-text">Đang kết nối...</span>
+                </div>
+                <div class="app-version">v3.5.0</div>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content" id="mainContent">
+            <!-- Pages rendered here by JS -->
+        </main>
+    </div>
+
+    <!-- Toast Container -->
+    <div class="toast-container" id="toastContainer"></div>
+
+    <!-- Modal Container -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal-content" id="modalContent"></div>
+    </div>
+
+    <script src="/static/js/api.js?v=300"></script>
+    <script src="/static/js/websocket.js?v=300"></script>
+    <script src="/static/js/components/toast.js?v=300"></script>
+    <script src="/static/js/components/progress.js?v=300"></script>
+    <script src="/static/js/components/modal.js?v=300"></script>
+    <script src="/static/js/components/queue-panel.js?v=1"></script>
+    <script src="/static/js/components/video-player.js?v=300"></script>
+    <script src="/static/js/pages/dashboard.js?v=300"></script>
+    <script src="/static/js/pages/accounts.js?v=301"></script>
+    <script src="/static/js/pages/pages_mgmt.js?v=301"></script>
+    <script src="/static/js/pages/downloader.js?v=300"></script>
+    <script src="/static/js/pages/studio.js?v=350"></script>
+    <script src="/static/js/pages/spoofer.js?v=350"></script>
+    <script src="/static/js/pages/content_studio.js?v=350"></script>
+    <script src="/static/js/pages/checker.js?v=300"></script>
+    <script src="/static/js/pages/batch.js?v=300"></script>
+    <script src="/static/js/pages/analytics.js?v=300"></script>
+    <script src="/static/js/pages/settings.js?v=301"></script>
+    <script src="/static/js/pages/spy_page.js?v=350"></script>
+    <script src="/static/js/pages/inbox_page.js?v=350"></script>
+    <script src="/static/js/app.js?v=350"></script>
+</body>
+</html>

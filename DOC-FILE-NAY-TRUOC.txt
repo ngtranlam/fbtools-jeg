@@ -1,0 +1,66 @@
+MOCLAN VIRAL HUB v3.5
+==========================================
+
+Bo cai dat dung chung cho ca WINDOWS va macOS.
+
+MO FILE  README.md  DE XEM HUONG DAN DAY DU.
+
+
+MAY CHUA CO TOOL - CAI LAN DAU
+------------------------------
+
+WINDOWS:
+   1. Bam dup file  cai-dat-moi-truong.bat
+      (tu cai Python va FFmpeg, cho 5-15 phut)
+   2. Bam dup file  start.bat
+
+MAC:
+   1. Mo Terminal (bam Command + dau cach, go Terminal, Enter)
+   2. Go chu  bash  roi MOT DAU CACH:
+
+         bash
+
+   3. Keo tha file  cai-dat-moi-truong.command  vao cua so Terminal, bam Enter
+   4. Cai xong, bam dup file  start.command
+
+   *** Neu macOS hien bang chan co nut "Chuyen vao Thung rac" thi DUNG BAM! ***
+   Bam "Xong" roi lam theo cach tren.
+
+Trinh duyet se tu mo tai  http://localhost:8000
+Lan dau chay se hien man hinh nhap License Key - lien he Admin de lay.
+
+
+MAY DA DUNG TOOL - CAP NHAT LEN BAN MOI
+---------------------------------------
+
+KHONG cai lai tu dau, se mat het du lieu. Hay dung script cap nhat:
+
+WINDOWS:
+   1. DONG TOOL lai (dong cua so den)
+   2. Bam dup file  cap-nhat.bat
+   3. Keo tha THU MUC TOOL DANG DUNG vao cua so den, bam Enter
+
+MAC:
+   1. DONG TOOL lai (dong cua so Terminal)
+   2. Mo Terminal, go  bash  roi mot dau cach
+   3. Keo tha file  cap-nhat.command  vao, bam Enter
+   4. Keo tha THU MUC TOOL DANG DUNG vao, bam Enter
+
+Du lieu cua ban KHONG bi mat: license, Fanpage, video, du an Studio
+deu duoc giu nguyen. Script con tu sao luu database va license truoc khi lam.
+
+
+BA DIEU HAY QUEN NHAT
+---------------------
+
+1. Cua so den / Terminal phai LUON MO trong luc dung tool.
+   Dong no la tool tat ngay, job dang render se dung giua chung.
+
+2. Cap nhat xong phai KHOI DONG LAI tool. Script co hoi
+   "Mo tool ngay bay gio?" - cu bam Enter.
+
+3. Dung de thu muc tool trong OneDrive hoac iCloud Drive.
+   Tool luu hang GB video, se lam day tai khoan dam may.
+
+
+Can ho tro: lien he Admin.

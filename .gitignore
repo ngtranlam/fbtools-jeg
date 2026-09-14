@@ -1,0 +1,15 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Data (runtime, user data)
+data/
+
+# Environment
+.env
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,18 @@
+fastapi==0.115.12
+uvicorn[standard]==0.34.2
+# yt-dlp phai luon moi: TikTok/Facebook doi cau truc trang lien tuc, ban cu vai
+# thang la khong quet duoc kenh nua. Neu Spy bao loi, chay:  pip install -U yt-dlp
+yt-dlp>=2026.8.19
+python-multipart==0.0.20
+aiofiles==24.1.0
+pillow>=11.0.0
+imagehash>=4.3.1
+opencv-python-headless>=4.10.0
+websockets>=14.0
+pydantic>=2.10.0
+jinja2>=3.1.0
+httpx>=0.28.0
+aiosqlite>=0.21.0
+cryptography>=44.0.0
+apscheduler>=3.11.0
+python-dotenv>=1.1.0
