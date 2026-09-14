@@ -1,4 +1,4 @@
-# 🪟 Hướng Dẫn Cài Đặt — MocLan Viral Hub (BẢN WINDOWS)
+# 🪟 Hướng Dẫn Cài Đặt — JEG Social Tools (BẢN WINDOWS)
 
 > **Phiên bản:** 3.5 | **Dành cho máy Windows 10 / 11 (64-bit)**
 > Bộ cài này dùng chung cho cả Windows và Mac.
@@ -83,8 +83,8 @@ Hiện ra thông tin phiên bản là đạt.
 
 ## Bước 3 — Chạy tool
 
-1. Giải nén **`MocLan-Viral-Hub-v3.5.zip`** vào nơi muốn để
-   — ví dụ `D:\MocLan`
+1. Giải nén vào nơi muốn để
+   — ví dụ `D:\JEG`
 
    > ⚠️ **Không** để trong **Desktop**, **Documents** hay **Downloads** nếu máy có
    > **OneDrive**. OneDrive sẽ đồng bộ hàng GB video lên mây, làm đầy tài khoản
@@ -138,7 +138,7 @@ môi trường ảo nhầm vào `C:\Windows` và bị từ chối quyền. Datab
 không chạy an toàn trên ổ mạng.
 
 **Cách sửa:** chạy `start.bat`, nó sẽ hiện thông báo và **mời tự chép tool sang
-`C:\Users\<tên bạn>\MocLan`** — bấm Enter là xong.
+`C:\Users\<tên bạn>\JEG`** — bấm Enter là xong.
 
 Hoặc tự làm: chép cả thư mục tool vào ổ `C:` rồi chạy `start.bat` trong đó.
 
@@ -159,8 +159,7 @@ khi Windows Firewall hỏi.
 
 ## 🔄 Cập nhật lên bản mới
 
-Dùng chính bộ cài đặt mới nhất `MocLan-Viral-Hub-v3.5.zip`
-— chính là bộ cài đặt này, không cần gói riêng.
+Dùng chính bộ cài đặt mới nhất — không cần gói riêng.
 
 1. **Đóng tool lại** — đóng cửa sổ đen nếu đang mở
 2. Giải nén gói cập nhật ra đâu cũng được (không cần để cạnh thư mục tool)

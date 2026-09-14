@@ -1,4 +1,4 @@
-# 🍎 Hướng Dẫn Cài Đặt — MocLan Viral Hub (BẢN MAC)
+# 🍎 Hướng Dẫn Cài Đặt — JEG Social Tools (BẢN MAC)
 
 > **Phiên bản:** 3.5 | **Dành cho máy Mac (macOS 12 Monterey trở lên)**
 > Bộ cài này dùng chung cho cả Windows và Mac.
@@ -130,14 +130,14 @@ Cả hai hiện thông tin phiên bản là đạt.
 
 ## Bước 3 — Chạy tool
 
-1. Giải nén **`MocLan-Viral-Hub-v3.5.zip`** vào nơi muốn để
+1. Giải nén vào nơi muốn để
    — ví dụ thư mục **Documents**
 
    > ⚠️ **Không** để trong thư mục đồng bộ **iCloud Drive** (Desktop và Documents
    > thường được iCloud đồng bộ sẵn). Tool lưu rất nhiều video, sẽ làm đầy iCloud
    > và máy chạy ì. Nên tạo thư mục riêng ngoài iCloud, ví dụ:
    > ```bash
-   > mkdir -p ~/MocLan
+   > mkdir -p ~/JEG
    > ```
    > rồi giải nén vào đó.
 
@@ -227,8 +227,7 @@ Tool dùng font Arial có sẵn của macOS. Nếu máy thiếu font, báo Admin
 
 ## 🔄 Cập nhật lên bản mới
 
-Dùng chính bộ cài đặt mới nhất `MocLan-Viral-Hub-v3.5.zip`
-— chính là bộ cài đặt này, không cần gói riêng.
+Dùng chính bộ cài đặt mới nhất — không cần gói riêng.
 
 1. **Đóng tool lại** — đóng cửa sổ Terminal nếu đang mở
 2. Giải nén gói cập nhật

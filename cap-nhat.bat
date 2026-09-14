@@ -1,10 +1,10 @@
 @echo off
 setlocal enabledelayedexpansion
 cd /d "%~dp0"
-title MocLan Viral Hub - Cap nhat ban moi
+title JEG Social Tools - Cap nhat ban moi
 
 echo ===============================================
-echo    MocLan Viral Hub - CAP NHAT BAN MOI
+echo    JEG Social Tools - CAP NHAT BAN MOI
 echo ===============================================
 echo.
 echo Script nay se cap nhat tool len ban moi nhat.
@@ -39,7 +39,7 @@ if "%TOOLDIR:~0,2%"=="\\" (
     echo.
     echo       Tool khong chay duoc tu thu muc mang ^(thu muc chia se cua
     echo       Parallels, o dia mang...^). Hay chep tool vao o dia cua
-    echo       Windows truoc, vi du %USERPROFILE%\MocLan, roi cap nhat lai.
+    echo       Windows truoc, vi du %USERPROFILE%\JEG, roi cap nhat lai.
     echo.
     pause
     exit /b 1

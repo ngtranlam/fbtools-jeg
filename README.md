@@ -1,4 +1,4 @@
-# 🚀 MocLan Viral Hub
+# 🚀 JEG Social Tools
 
 > **Phiên bản 3.5** — dùng được trên cả **Windows** và **macOS**
 > Hệ thống quản lý nội dung video và Fanpage Facebook

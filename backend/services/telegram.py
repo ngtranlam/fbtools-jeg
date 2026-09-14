@@ -209,7 +209,7 @@ async def send_daily_report() -> bool:
     top_videos = await top_cursor.fetchall()
 
     text = (
-        f"📊 <b>BÁO CÁO NGÀY — MocLan Viral Hub</b>\n"
+        f"📊 <b>BÁO CÁO NGÀY — JEG Social Tools</b>\n"
         f"━━━━━━━━━━━━━━━━━━━━\n"
         f"📅 {datetime.now().strftime('%d/%m/%Y')}\n\n"
         f"📄 Pages đang hoạt động: <b>{tp['cnt']}</b>\n"

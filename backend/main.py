@@ -51,7 +51,7 @@ async def lifespan(app: FastAPI):
 
 
 app = FastAPI(
-    title="MocLan Viral Hub",
+    title="JEG Social Tools",
     description="Hệ thống quản lý 100+ Fanpage Facebook — Spoof, Đăng Reels, Theo dõi Viral",
     version="3.5.0",
     lifespan=lifespan,
@@ -154,7 +154,7 @@ async def health_check():
         "status": "ok",
         "version": "3.5.0",
         "build": BUILD,
-        "app": "MocLan Viral Hub",
+        "app": "JEG Social Tools",
     }
 
 

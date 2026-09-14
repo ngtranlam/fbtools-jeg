@@ -1,11 +1,11 @@
 #!/bin/bash
-# MocLan Viral Hub — khởi động trên macOS / Linux
+# JEG Social Tools — khởi động trên macOS / Linux
 # Trên macOS có thể bấm đúp vào file này để chạy.
 
 cd "$(dirname "$0")" || exit 1
 
 echo "======================================="
-echo "   MocLan Viral Hub - Dang khoi dong..."
+echo "   JEG Social Tools - Dang khoi dong..."
 echo "======================================="
 echo
 echo "[INFO] Thu muc: $(pwd)"

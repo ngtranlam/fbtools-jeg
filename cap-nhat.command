@@ -1,11 +1,11 @@
 #!/bin/bash
-# MocLan Viral Hub — cap nhat len ban moi tren macOS
+# JEG Social Tools — cap nhat len ban moi tren macOS
 # Giu nguyen toan bo du lieu, chi thay ma nguon.
 
 cd "$(dirname "$0")" || exit 1
 
 echo "==============================================="
-echo "   MocLan Viral Hub - CAP NHAT BAN MOI"
+echo "   JEG Social Tools - CAP NHAT BAN MOI"
 echo "==============================================="
 echo
 echo "Script nay se cap nhat tool len ban moi nhat."

@@ -4,7 +4,7 @@ const AccountsPage = {
     channels: [],
     loadError: '',
 
-    // Required Facebook permissions for MocLan Hub
+    // Required Facebook permissions for JEG Social Tools
     FB_PERMISSIONS: [
         'pages_show_list',
         'pages_read_engagement',

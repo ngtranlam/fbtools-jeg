@@ -1,4 +1,4 @@
-# 📖 MocLan Viral Hub — Hướng Dẫn Sử Dụng
+# 📖 JEG Social Tools — Hướng Dẫn Sử Dụng
 
 > **Phiên bản:** 3.5 | **Cập nhật:** 22/08/2026
 > **Hỗ trợ:** Liên hệ Admin để được hướng dẫn
@@ -30,7 +30,7 @@
 
 ## 🚀 Giới Thiệu
 
-**MocLan Viral Hub** là hệ thống quản lý nội dung video và Fanpage Facebook toàn diện, bao gồm:
+**JEG Social Tools** là hệ thống quản lý nội dung video và Fanpage Facebook toàn diện, bao gồm:
 
 - 🔍 **Spy đối thủ** — Theo dõi kênh TikTok, YouTube, Douyin; bắt video mới và video đang lên
 - ⬇️ **Tải video** — Download từ 5 nền tảng (TikTok, YouTube, Facebook, Instagram, Douyin)

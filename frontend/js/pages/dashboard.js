@@ -1,4 +1,4 @@
-// MocLan Viral Hub — Tổng Quan Dashboard
+// JEG Social Tools — Tổng Quan Dashboard
 const DashboardPage = {
     async render() {
         // Fetch all stats in parallel
@@ -27,7 +27,7 @@ const DashboardPage = {
 
         return `
             <div class="page-header">
-                <h1 class="page-title">🚀 MocLan Viral Hub</h1>
+                <h1 class="page-title">🚀 JEG Social Tools</h1>
                 <p class="page-subtitle">Bảng điều khiển hệ thống quản lý Fanpage</p>
             </div>
 

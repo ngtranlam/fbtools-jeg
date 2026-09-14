@@ -1,4 +1,4 @@
-# 📋 CHANGELOG — MocLan Viral Hub
+# 📋 CHANGELOG — JEG Social Tools
 
 > Ghi chú thay đổi để update cho nhân sự.
 
@@ -78,7 +78,7 @@ chế độ WAL, chế độ này cần bộ nhớ chia sẻ mà ổ đĩa mạn
 Nay cả ba script đều nhận ra và xử lý:
 
 - **`start.bat`** dừng lại với thông báo tiếng Việt giải thích rõ, và **mời tự chép
-  tool sang `C:\Users\<tên>\MocLan`** — bấm Enter là xong, chép xong tự mở tool
+  tool sang `C:\Users\<tên>\JEG`** — bấm Enter là xong, chép xong tự mở tool
   ở thư mục mới.
 - **`cai-dat-moi-truong.bat`** cảnh báo nhưng vẫn cài Python/FFmpeg bình thường
   (hai thứ này không phụ thuộc chỗ để tool).
@@ -230,7 +230,7 @@ chạy tốt cho tới lúc dùng đến tính năng đó thì mới lộ ra.
 
 ### 📦 Chỉ còn một file gửi cho nhân sự
 Trước đây có 4 gói (cài mới / cập nhật × Windows / Mac) — dễ gửi nhầm.
-Nay chỉ còn **`MocLan-Viral-Hub-v3.5.zip`** dùng chung cho:
+Nay chỉ còn **một file zip duy nhất** dùng chung cho:
 
 - Cả **Windows và macOS** (mã nguồn vốn giống hệt nhau, chỉ khác script khởi động)
 - Cả **cài mới** (`cai-dat-moi-truong` → `start`) lẫn **cập nhật** (`cap-nhat`)

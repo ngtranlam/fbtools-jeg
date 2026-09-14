@@ -1,4 +1,4 @@
-// MocLan Viral Hub — Global helpers
+// JEG Social Tools — Global helpers
 function formatDuration(seconds) {
     if (!seconds && seconds !== 0) return '--:--';
     const s = Math.round(Number(seconds));
@@ -18,7 +18,7 @@ function formatFileSize(bytes) {
     return `${size.toFixed(i > 0 ? 1 : 0)} ${units[i]}`;
 }
 
-// MocLan Viral Hub — Main entry point and router
+// JEG Social Tools — Main entry point and router
 //
 // Vòng đời của một trang:
 //   setup()  — chạy MỘT lần lúc khởi động (đăng ký WebSocket, listener toàn cục)

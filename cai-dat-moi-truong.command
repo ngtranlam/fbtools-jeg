@@ -1,11 +1,11 @@
 #!/bin/bash
-# MocLan Viral Hub — tu dong cai moi truong tren macOS
+# JEG Social Tools — tu dong cai moi truong tren macOS
 # Bam dup vao file nay. Khong can go lenh, khong can copy dan.
 
 cd "$(dirname "$0")" || exit 1
 
 echo "==============================================="
-echo "   MocLan Viral Hub - Cai dat moi truong"
+echo "   JEG Social Tools - Cai dat moi truong"
 echo "==============================================="
 echo
 echo "Script nay se cai giup ban:"

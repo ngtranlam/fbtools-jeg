@@ -16,9 +16,9 @@ cd /d "%~dp0" 2>nul
 if not exist "backend\main.py" goto :sai_thu_muc
 
 
-title MocLan Viral Hub
+title JEG Social Tools
 echo =======================================
-echo   MocLan Viral Hub - Dang khoi dong...
+echo   JEG Social Tools - Dang khoi dong...
 echo =======================================
 echo.
 echo [INFO] Working directory: %cd%
@@ -150,7 +150,7 @@ echo   nhieu - bam dup  start.command  ben macOS, khoi can Windows.
 echo   Xem file  CAI-DAT-MAC.md
 echo.
 echo -----------------------------------------------
-for %%I in ("%TOOLDIR:~0,-1%") do set "DICH=%USERPROFILE%\MocLan\%%~nxI"
+for %%I in ("%TOOLDIR:~0,-1%") do set "DICH=%USERPROFILE%\JEG\%%~nxI"
 echo   Muon chay tren Windows thi phai chep tool vao o dia cua Windows:
 echo.
 echo     %DICH%
@@ -172,7 +172,7 @@ robocopy "%TOOLDIR:~0,-1%" "%DICH%" /E /NFL /NDL /NJH /NJS /NP >nul
 if errorlevel 8 (
     echo.
     echo   [LOI] Chep that bai. Hay tu chep thu muc nay vao
-    echo         %USERPROFILE%\MocLan  roi chay start.bat trong do.
+    echo         %USERPROFILE%\JEG  roi chay start.bat trong do.
     goto :ket_thuc_mang
 )
 

@@ -15,7 +15,7 @@ echo   CHAY DUOC tu thu muc mang - CMD khong vao duoc thu muc mang, va
 echo   database cua tool khong chay an toan tren o mang.
 echo.
 echo   Cai xong, hay chep ca thu muc tool vao o dia cua Windows:
-echo     %USERPROFILE%\MocLan
+echo     %USERPROFILE%\JEG
 echo   roi chay start.bat trong do.
 echo.
 echo   Neu day la may Mac chay Parallels: dung thang ban Mac se nhanh hon
@@ -28,10 +28,10 @@ goto :bo_qua_cd
 cd /d "%~dp0"
 :bo_qua_cd
 
-title MocLan Viral Hub - Cai dat moi truong
+title JEG Social Tools - Cai dat moi truong
 
 echo ===============================================
-echo    MocLan Viral Hub - Cai dat moi truong
+echo    JEG Social Tools - Cai dat moi truong
 echo ===============================================
 echo.
 echo Script nay se cai giup ban:
